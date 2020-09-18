@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class DublicateElementInArray {
     public static void main(String[] args) {
-        String arr[]={"one","two","one","three"};
+        String arr[]={"one","two","one","three","two"};
         String dub[] = new String[15];
         int k=0;
         for (int i=0;i<arr.length;i++){

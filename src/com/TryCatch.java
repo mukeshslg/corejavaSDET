@@ -12,10 +12,11 @@ public class TryCatch {
        */
         try {
             int x=23/0;
-            throw new ArithmeticException();
+            System.out.println("after divisoon error");
+            //throw new ArithmeticException();
         } finally {
             System.out.println("Hello this is Finally Block");
         }
-//        System.out.println("End block");  code is unreachable
+       System.out.println("End block");  //code is unreachable
     }
 }

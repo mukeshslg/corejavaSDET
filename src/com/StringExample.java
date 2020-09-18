@@ -22,15 +22,15 @@ public class StringExample {
         below approach
          */
         String s2="Hello this is core java concept for test J";
-        String rev2="",revs="";
+        String reverse="",revs="";
         String str2[]=s2.split(" ");
         for (String val:str2) {
             //String strRev[]=val.split("");//this is also another approach
             for (int i=val.length()-1;i>=0;i--) {
-                rev2 = rev2 + val.charAt(i);
+                reverse = reverse + val.charAt(i);
             }
-            revs=revs+rev2+" ";
-            rev2="";
+            revs=revs+reverse+" ";
+            reverse="";
         }
         System.out.println(revs);
     }
